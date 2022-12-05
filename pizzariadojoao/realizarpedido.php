@@ -37,5 +37,5 @@
         //se campos vazios volta para a pagina de login
     }
     $cliente= $_SESSION ['userName'];
-    $result = mysqli_query($conexao, "INSERT INTO pedidos (nome_cliente,statusPizza, sabor1, sabor2, sabor3, massa, borda ) VALUE ('$cliente','Pedido em preparo','$sabor1','$sabor2','$sabor3','$massa','$borda')");
+    $result = mysqli_query($conexao, "INSERT INTO pedidos (nome_cliente,statusPizza, sabor1, sabor2, sabor3, massa, borda ) VALUE ('$cliente','Em produção','$sabor1','$sabor2','$sabor3','$massa','$borda')");
     header('Location:'.URL_BASE);
