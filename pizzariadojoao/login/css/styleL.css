@@ -1,0 +1,48 @@
+.validate{color: white;}
+
+#fundo{
+    background-color: rgb(53, 53, 53);
+    border-radius: 40px;
+    
+}
+.container{
+    z-index: 2;
+    margin-top: 15vh;
+    width: 35%;
+  
+}
+.frase{
+    font-size: 1rem;
+    color: rgb(211, 235, 236);
+}
+#titulo{
+    font-size: 1.5rem;
+    color: rgb(103, 208, 216);
+}
+img.responsive-img{
+    max-width: 50px;
+    height: none;
+}
+body{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background: url(https://www.30receitas.com/wp-content/uploads/2021/01/massa-pizza-liquidificador.png) no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+    
+ 
+
+
+   
