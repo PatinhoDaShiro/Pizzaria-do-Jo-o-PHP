@@ -44,7 +44,15 @@ include TEMPLATE_BASE.'/nav.php';
 
             <div class="input-field col s10 offset-s1 l4 offset-l4" >
             <input type="text" placeholder="Numero do pedido a ser atualizado" name="idpedido">
-            <input type="text" placeholder="novo status do pedido" name="statuspedido">
+
+            <select name="statuspedido" class="white">
+            <option value="" disabled selected >Status pedido</option>
+            <option value="Em produção" >Em produção</option>
+            <option value="Entrega">Entrega</option>
+            <option value="Concluido">Concluido</option>
+        
+            </select>
+
             <select name="massapedido" class="white">
             <option value="" disabled selected >Tipo de massa</option>
             <option value="comum">Massa comum</option>
